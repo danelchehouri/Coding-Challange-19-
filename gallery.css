@@ -1,0 +1,42 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.tour {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 300px;
+  padding: 20px;
+  text-align: left;
+  background-color: #f9f9f9;
+}
+
+.tour img {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.tour h2 {
+  margin: 10px 0;
+}
+
+.tour p {
+  margin: 10px 0;
+}
+
+.tour button {
+  margin-top: 10px;
+  background-color: #ff6347;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.tour button:hover {
+  background-color: #ff4500;
+}
